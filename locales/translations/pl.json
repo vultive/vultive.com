@@ -1,0 +1,78 @@
+{
+    "code": "pl",
+    "name": "Polski",
+    "header": {
+      "nav": {
+        "status": "Stan usług"
+      },
+      "about": {
+        "title": "Niezachwiana pasja",
+        "text": "Nasza podróż zaczyna się od głęboko zakorzenionej wiary w moc technologii, która upraszcza i wzmacnia codzienne doświadczenia. Z każdą linijką kodu, którą piszemy i każdą funkcją, którą projektujemy, naszym wspólnym celem jest uczynienie życia płynniejszym, wydajniejszym i przyjemniejszym dla wszystkich.",
+        "button": "Nasze Produkty"
+      }
+    },
+    "footer": {
+      "socials": {
+        "title": "Społeczności"
+      },
+      "contact": {
+        "title": "Kontakt",
+        "nav": {
+          "helpdesk": "Dział Pomocy"
+        }
+      },
+      "about_us": {
+        "title": "O Nas",
+        "nav": {
+          "blog": "Blog",
+          "careers": "Kariera",
+          "privacy_policy": "Polityka Prywatności",
+          "terms_and_conditions": "Warunki i Postanowienia"
+        }
+      },
+      "display_language": {
+        "title": "Język Wyświetlania"
+      }
+    },
+    "section": {
+      "work_with_us": {
+        "title": "Pracuj z Nami",
+        "text": "Wolne stanowiska: {num}",
+        "apply": "Aplikuj"
+      },
+      "reasons": {
+        "title": "Powody",
+        "text": "Dlaczego warto wybrać nasze produkty?",
+        "regular_updates": {
+          "title": "Regularne aktualizacje",
+          "text": "Dążymy do ciągłego ulepszania naszych aplikacji. Regularne aktualizacje oznaczają, że użytkownicy mogą spodziewać się nowych funkcji."
+        },
+        "efficient_support": {
+          "title": "Skuteczne wsparcie",
+          "text": "Nasz dedykowany zespół wsparcia jest łatwo dostępny, aby pomóc użytkownikom we wszelkich kwestiach, pytaniach lub wątpliwościach, które mogą napotkać."
+        },
+        "data_security": {
+          "title": "Bezpieczeństwo danych",
+          "text": "Priorytetowo traktujemy bezpieczeństwo danych użytkowników, wdrażając solidne środki w celu ochrony wrażliwych informacji i zapewnienia prywatności."
+        }
+      },
+      "join": {
+        "label": "Dołącz do Naszego Zespołu",
+        "title": "Wspólnie Kształtujmy Przyszłość",
+        "text": "Gotowy, aby wywrzeć znaczący wpływ? Poszukujemy utalentowanych osób, które dołączą do naszego zespołu i staną się częścią czegoś przełomowego. Jeśli jesteś pasjonatem innowacji i tworzenia rozwiązań, które mają znaczenie, chcielibyśmy mieć Cię na pokładzie. Razem kształtujmy przyszłość!"
+      }
+    },
+    "service": {
+      "licast": {
+        "title": "Usługa Transmisji na Żywo",
+        "text": "Nasza usługa transmisji na żywo to szybki sposób na podzielenie się swoją pasją z całym światem! Niezależnie od tego, czy jesteś nowym streamerem, czy doświadczonym graczem, możemy pomóc Ci transmitować rozgrywkę w wysokiej jakości za darmo.",
+        "button": "Dołącz teraz!"
+      },
+      "learn": {
+        "title": "Platforma do Nauki Języków",
+        "text": "Nasza platforma do nauki języków jest idealnym narzędziem dla studentów, nauczycieli i entuzjastów języków. Dzięki obszernej zawartości edukacyjnej z interaktywnymi ćwiczeniami, pomagamy uczyć się języków szybciej i bardziej efektywnie. Cała nasza zawartość edukacyjna jest bezpłatna.",
+        "button": "Ucz się ZA DARMO!"
+      }
+    }
+  }
+  

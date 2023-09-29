@@ -1,0 +1,13 @@
+.v-logos-grid {
+    img {
+      display: block;
+      width: 160px;
+      margin: 0 auto;
+      filter: grayscale(100%);
+      transition: filter 0.20s;
+  
+      &:hover {
+        filter: grayscale(0);
+      }
+    }
+  }

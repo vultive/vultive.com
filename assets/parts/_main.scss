@@ -1,0 +1,24 @@
+* {
+  scrollbar-width: thin;
+}
+
+body {
+  font-family: $v-font-stack !important;
+  font-size: $v-font-size !important;
+  line-height: $v-line-height !important;
+}
+
+.v-text {
+  &--muted {
+    color: darken($v-text-neutral, 50%);
+  }
+
+  &__shadow {
+    &--sm {
+      text-shadow: #000 1px 1px 5px;
+    }
+    &--md {
+      text-shadow: #000 1px 1px 15px;
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "code": "en",
+  "name": "English",
+  "header": {
+    "nav": {
+      "status": "status"
+    },
+    "about": {
+      "title": "Unwavering passion",
+      "text": "Our journey starts with a deep-rooted belief in the power of technology to simplify and amplify everyday experiences. With each line of code we write and each feature we design, our collective goal is to make life smoother, more efficient, and more enjoyable for everyone.",
+      "button": "Our Products"
+    }
+  },
+  "footer": {
+    "socials": {
+      "title": "Socials"
+    },
+    "contact": {
+      "title": "Contact",
+      "nav": {
+        "helpdesk": "Helpdesk"
+      }
+    },
+    "about_us": {
+      "title": "About Us",
+      "nav": {
+        "blog": "Blog",
+        "careers": "Careers",
+        "privacy_policy": "Privacy Policy",
+        "terms_and_conditions": "Terms and Conditions"
+      }
+    },
+    "display_language": {
+      "title": "Display Language"
+    }
+  },
+  "section": {
+    "work_with_us": {
+      "title": "Work with Us",
+      "text": "Open positions: {num}",
+      "apply": "Apply"
+    },
+    "reasons": {
+      "title": "Reasons",
+      "text": "Why choose Our products?",
+      "regular_updates": {
+        "title": "Regular Updates",
+        "text": "We are committed to continuously improving our applications. Regular updates mean users can expect new features."
+      },
+      "efficient_support": {
+        "title": "Efficient Support",
+        "text": "Our dedicated support team is readily available to assist users with any issues, questions, or concerns they might encounter."
+      },
+      "data_security": {
+        "title": "Data Security",
+        "text": "We prioritize the security of user data, implementing robust measures to safeguard sensitive information and ensure privacy."
+      }
+    },
+    "join": {
+      "label": "Join Our Team",
+      "title": "Shape the Future Together",
+      "text": "Ready to make a meaningful impact? We're seeking talented individuals to join our team and be part of something transformative. If you're passionate about innovation and creating solutions that matter, we'd love to have you on board. Let's shape the future together!"
+    }
+  },
+  "service": {
+    "licast": {
+      "title": "Live Streaming Service",
+      "text": "our Live Streaming Service is a quick way to share your passion with the world! Whether you're a new streamer or an experienced gamer, we can help you broadcast your gameplay in high quality for free.",
+      "button": "Join Now!"
+    },
+    "learn": {
+      "title": "Language Learning Platform",
+      "text": "our Language Learning Platform is the perfect tool for students, educators, and language enthusiasts. With extensive learning content with interactive exercises, we help you learn languages faster and more efficiently. All of our learning content is free to use.",
+      "button": "Learn for FREE!"
+    }
+  }
+}

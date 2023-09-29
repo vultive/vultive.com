@@ -1,0 +1,12 @@
+.v-reasons {
+  &__icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 1rem;
+    color: $v-text-neutral;
+    background-color: $v-highlight-primary;
+  }
+}
