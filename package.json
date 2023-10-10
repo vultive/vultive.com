@@ -9,19 +9,19 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@intlify/unplugin-vue-i18n": "^1.2.0",
+    "@intlify/unplugin-vue-i18n": "^1.4.0",
     "@types/node": "^20",
     "@unhead/schema-org": "^1.7.4",
     "nuxt": "^3.7.4",
-    "nuxt-schema-org": "^3.0.0",
-    "nuxt-simple-sitemap": "^3.3.5",
-    "sass": "^1.68.0",
+    "nuxt-schema-org": "^3.0.1",
+    "nuxt-simple-sitemap": "^3.4.0",
+    "sass": "^1.69.2",
     "sass-loader": "^13.3.2",
-    "vue-i18n": "^9.4.1"
+    "vue-i18n": "^9.5.0"
   },
   "dependencies": {
     "@nuxtjs/robots": "^3.0.0",
     "nuxt-storage": "^1.2.2",
-    "uikit": "^3.17.0"
+    "uikit": "^3.17.1"
   }
 }
