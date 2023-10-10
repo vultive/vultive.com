@@ -27,8 +27,8 @@
 
   <section class="uk-section uk-section-default uk-section-small">
     <div class="uk-container uk-container-small">
-      <div class="uk-position-relative uk-visible-toggle uk-margin-remove" tabindex="-1" uk-slider="sets: true">
-        <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@m uk-flex-middle v-logos-grid">
+      <div class="uk-position-relative uk-visible-toggle uk-margin-remove" tabindex="-1" uk-slider="sets: true; autoplay: true">
+        <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@m uk-flex-middle uk-grid v-logos-grid">
           <li>
             <a href="https://my.limitlesshost.net/order/forms/a/NDMyNA==">
               <img src="/images/logos/limitless-hosting.webp" alt="Limitless Hosting" width="160" height="50"

@@ -3,7 +3,7 @@ import { resolve, dirname } from "node:path";
 import VueI18nVitePlugin from "@intlify/unplugin-vue-i18n/vite";
 
 export default defineNuxtConfig({
-  css: ["~/node_modules/uikit/dist/css/uikit.min.css", "~/assets/default.scss"],
+  css: ["~/node_modules/uikit/dist/css/uikit.min.css", "~/assets/main.scss"],
   modules: ["@nuxtjs/robots", "nuxt-simple-sitemap", "nuxt-schema-org"],
   robots: {
     rules: {
@@ -15,7 +15,7 @@ export default defineNuxtConfig({
     css: {
       preprocessorOptions: {
         scss: {
-          additionalData: '@import "@/assets/parts/_variables.scss";',
+          additionalData: '@import "@/assets/base/project/_variables.scss";',
         },
       },
     },

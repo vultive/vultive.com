@@ -12,13 +12,4 @@ body {
   &--muted {
     color: darken($v-text-neutral, 50%);
   }
-
-  &__shadow {
-    &--sm {
-      text-shadow: #000 1px 1px 5px;
-    }
-    &--md {
-      text-shadow: #000 1px 1px 15px;
-    }
-  }
 }
