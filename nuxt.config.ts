@@ -4,12 +4,20 @@ import VueI18nVitePlugin from "@intlify/unplugin-vue-i18n/vite";
 
 export default defineNuxtConfig({
   css: ["~/node_modules/uikit/dist/css/uikit.min.css", "~/assets/main.scss"],
-  modules: ["@nuxtjs/robots", "nuxt-simple-sitemap", "nuxt-schema-org"],
+  modules: [
+    "@nuxtjs/robots",
+    "nuxt-simple-sitemap",
+    "nuxt-schema-org",
+    "@nuxtjs/google-adsense",
+  ],
   robots: {
     rules: {
       UserAgent: "ia_archiver",
       Disallow: "*",
     },
+  },
+  "google-adsense": {
+    id: "ca-pub-8536011049781887",
   },
   vite: {
     css: {
@@ -78,7 +86,6 @@ export default defineNuxtConfig({
           name: "og:image",
           content: "https://vultive.com/images/preview.webp",
         },
-
       ],
       link: [
         {
