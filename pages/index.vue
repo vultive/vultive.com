@@ -47,13 +47,13 @@
           </div>
         </div>
       </div>
+      <Adsbygoogle />
     </div>
   </section>
 
   <section class="uk-section uk-section-default" id="products">
-    <AppHero image="/images/illustrations/video.svg" label="Licast"
-      :title="$t('service.licast.title')" contentClass="uk-flex-last@m" buttonUrl="https://licast.space"
-      :buttonText="$t('service.licast.button')">
+    <AppHero image="/images/illustrations/video.svg" label="Licast" :title="$t('service.licast.title')"
+      contentClass="uk-flex-last@m" buttonUrl="https://licast.space" :buttonText="$t('service.licast.button')">
       <template v-slot:text>
         {{ $t("service.licast.text") }}
       </template>
@@ -61,8 +61,8 @@
   </section>
 
   <section class="uk-section uk-section-default">
-    <AppHero image="/images/illustrations/explore.svg" label="Learn"
-      :title="$t('service.learn.title')" buttonUrl="https://learn.vultive.com" :buttonText="$t('service.learn.button')">
+    <AppHero image="/images/illustrations/explore.svg" label="Learn" :title="$t('service.learn.title')"
+      buttonUrl="https://learn.vultive.com" :buttonText="$t('service.learn.button')">
       <template v-slot:text>
         {{ $t("service.learn.text") }}
       </template>
