@@ -16,8 +16,8 @@ export default defineNuxtConfig({
       Disallow: "*",
     },
   },
-  "google-adsense": {
-    id: "ca-pub-8536011049781887",
+  googleAdsense: {
+    id: "ca-pub-8536011049781887"
   },
   vite: {
     css: {
