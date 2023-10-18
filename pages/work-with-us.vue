@@ -36,6 +36,7 @@ const jobs = [
           </div>
         </template>
       </div>
+      <Adsbygoogle />
     </div>
   </section>
 </template>
