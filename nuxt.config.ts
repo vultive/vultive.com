@@ -86,6 +86,10 @@ export default defineNuxtConfig({
           name: "og:image",
           content: "https://vultive.com/images/preview.webp",
         },
+        {
+          name: "google-adsense-account",
+          content: "ca-pub-8536011049781887"
+        }
       ],
       link: [
         {
