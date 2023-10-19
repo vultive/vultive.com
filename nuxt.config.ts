@@ -5,6 +5,7 @@ import VueI18nVitePlugin from "@intlify/unplugin-vue-i18n/vite";
 export default defineNuxtConfig({
   css: ["~/node_modules/uikit/dist/css/uikit.min.css", "~/assets/main.scss"],
   modules: [
+    "@pinia/nuxt",
     "@nuxtjs/robots",
     "nuxt-simple-sitemap",
     "nuxt-schema-org",
