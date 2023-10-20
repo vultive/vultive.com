@@ -7,7 +7,7 @@ const props = defineProps({
 <template>
     <div class="uk-transition-toggle">
         <div class="uk-card uk-card-default uk-card-body uk-transition-scale-up uk-transition-opaque"
-            :class="(!post.sticky && 'v-post__sticky')">
+            :class="(post.sticky && 'v-post__sticky')">
             <div class="uk-card-badge uk-label uk-label-danger uk-text-bold uk-border-rounded"><span
                     uk-icon="calendar"></span> {{ new
                         Date(post.date).toLocaleString()
@@ -23,6 +23,6 @@ const props = defineProps({
 
 <style scoped>
 .v-post__sticky {
-    border: 5px solid red;
+    border: 2px solid var(--v-highlight-primary);
 }
 </style>
