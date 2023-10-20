@@ -35,6 +35,10 @@
     }
   },
   "section": {
+    "news": {
+      "title": "Latest News",
+      "text": "section.news.text"
+    },
     "work_with_us": {
       "title": "Work with Us",
       "text": "Open positions: {num}",
