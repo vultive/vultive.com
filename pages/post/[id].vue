@@ -37,8 +37,7 @@ onMounted(() => {
                 <h2 class="uk-text-bold uk-margin-remove-top">{{ postDetails.title?.rendered }}</h2>
                 <p class="uk-margin-large-bottom">{{ new Date(postDetails.date).toLocaleString() }}</p>
                 <div v-html="postDetails.content?.rendered" class="v-text--muted"></div>
-                <Adsbygoogle ad-slot="8269055061" :ad-style="{ display: 'inline-block', width: '728px', height: '140px' }"
-                    class="uk-margin-medium" />
+                <AppAds/>
             </template>
         </div>
     </section>
