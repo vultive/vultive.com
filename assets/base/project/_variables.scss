@@ -10,3 +10,7 @@ $v-color-punch: #f0506e;
 // theme
 $v-text-neutral: $v-color-white;
 $v-highlight-primary: $v-color-punch;
+
+:root { 
+    --v-highlight-primary: #{$v-color-punch};
+}

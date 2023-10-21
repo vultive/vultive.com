@@ -3,8 +3,14 @@ import { resolve, dirname } from "node:path";
 import VueI18nVitePlugin from "@intlify/unplugin-vue-i18n/vite";
 
 export default defineNuxtConfig({
+  runtimeConfig: {
+    public: {
+      blogApiBaseUrl: process.env.BLOG_API_BASE_URL,
+    },
+  },
   css: ["~/node_modules/uikit/dist/css/uikit.min.css", "~/assets/main.scss"],
   modules: [
+    "@pinia/nuxt",
     "@nuxtjs/robots",
     "nuxt-simple-sitemap",
     "nuxt-schema-org",
