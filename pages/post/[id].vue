@@ -36,7 +36,7 @@ onMounted(() => {
             <template v-else-if="postDetails">
                 <h2 class="uk-text-bold uk-margin-remove-top">{{ postDetails.title?.rendered }}</h2>
                 <p class="uk-margin-large-bottom">{{ new Date(postDetails.date).toLocaleString() }}</p>
-                <div v-html="postDetails.content?.rendered" class="v-text--muted"></div>
+                <div v-html="postDetails.content?.rendered" class="v-text--muted uk-text-left"></div>
                 <AppAds/>
             </template>
         </div>
