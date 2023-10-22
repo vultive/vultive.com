@@ -35,6 +35,10 @@
       }
     },
     "section": {
+      "news": {
+        "title": "Nowości",
+        "text": "Z naszego bloga"
+      },
       "work_with_us": {
         "title": "Pracuj z Nami",
         "text": "Wolne stanowiska: {num}",

@@ -30,14 +30,23 @@ onMounted(() => {
         <AppLoader />
     </template>
     <template v-else-if="postsDetails">
-        <div class="uk-child-width-1-2@s uk-child-width-1-3@l uk-grid uk-grid-small uk-grid-match uk-flex-center"
-            data-uk-scrollspy="cls: uk-animation-scale-down; target: > .uk-card; delay: 100" uk-grid
-            uk-height-match="target: .uk-card">
-            <template v-for="post in postsDetails" v-bind:key="post.id">
-                <NuxtLink :to="'/post/' + post.id" class="uk-text-decoration-none">
-                    <PostItem :post="post" />
-                </NuxtLink>
-            </template>
+        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1"
+            uk-slider="clsActivated: uk-transition-active; center: true;">
+
+            <ul class="uk-slider-items uk-grid">
+                <template v-for="post in postsDetails" v-bind:key="post.id">
+                    <li class="uk-width-3-4">
+                        <NuxtLink :to="'/post/' + post.id" class="uk-text-decoration-none">
+                            <PostItem :post="post" />
+                        </NuxtLink>
+                    </li>
+                </template>
+            </ul>
+
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href uk-slidenav-previous
+                uk-slider-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href uk-slidenav-next
+                uk-slider-item="next"></a>
         </div>
     </template>
 </template>

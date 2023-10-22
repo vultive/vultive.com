@@ -50,7 +50,7 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: "en",
       },
-      title: "Vultive",
+      title: "Vultive - Make life more efficient",
       meta: [
         {
           name: "viewport",
@@ -60,7 +60,7 @@ export default defineNuxtConfig({
           hid: "description",
           name: "description",
           content:
-            "Our journey starts with a deep-rooted belief in the power of technology to simplify and amplify everyday experiences. With each line of code we write and each feature we design, our collective goal is to make life smoother, more efficient, and more enjoyable for everyone.",
+            "Our journey starts with a deep-rooted belief in the power of technology to simplify and amplify everyday experiences.",
         },
         {
           hid: "og:locale",

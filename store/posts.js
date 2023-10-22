@@ -16,6 +16,7 @@ export const usePostsStore = defineStore("postsStore", {
       await repositories.blog.posts(
         {
           per_page: limit,
+          _embed: 'wp:featuredmedia'
         },
         (body) => (this.posts = body._data)
       );
