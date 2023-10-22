@@ -47,7 +47,7 @@
           </div>
         </div>
       </div>
-      <AppAds/>
+      <AppAds />
     </div>
   </section>
 
@@ -70,7 +70,7 @@
   </section>
 
   <section class="uk-section uk-section-muted uk-section-small" id="news">
-    <div class="uk-container uk-container-medium uk-text-center"> <span class="uk-text-danger uk-text-bold">{{
+    <div class="uk-container uk-container-xsmall uk-text-center"> <span class="uk-text-danger uk-text-bold">{{
       $t("section.news.title") }}</span>
       <h2 class="uk-text-bold uk-margin-large-bottom uk-margin-remove-top">
         {{ $t("section.news.text") }}
