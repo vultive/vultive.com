@@ -16,12 +16,13 @@ export default defineNuxtConfig({
     "nuxt-schema-org",
     "@nuxtjs/google-adsense",
   ],
-  robots: {
-    rules: {
-      UserAgent: "ia_archiver",
-      Disallow: "*",
-    },
-  },
+  // robots: {
+  //   rules: {
+  //     UserAgent: "ia_archiver",
+  //     Disallow: "*",
+  //      Sitemap:  `https://${req.headers.host}/sitemap.xml` 
+  //   },
+  // },
   googleAdsense: {
     id: "ca-pub-8536011049781887"
   },

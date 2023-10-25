@@ -17,9 +17,9 @@ const props = defineProps({
         <div class="uk-container uk-container-xsmall">
           <slot name="content">
             <span class="uk-text-danger uk-text-bold uk-text-italic" v-if="label">{{ label }}</span>
-            <h1 class="uk-text-bold uk-heading-medium uk-margin-remove-top">
+            <h2 class="uk-text-bold uk-heading-medium uk-margin-remove-top">
               {{ title }}
-            </h1>
+            </h2>
             <p class="v-text--muted uk-visible@m">
               <slot name="text"></slot>
             </p>
