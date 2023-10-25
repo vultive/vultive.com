@@ -14,7 +14,7 @@ const jobs = [
 <template>
   <section class="uk-section uk-section-muted uk-section-small">
     <div class="uk-container uk-container-small uk-text-center">
-      <h2 class="uk-text-bold uk-margin-remove-top">{{ $t("section.work_with_us.title") }}</h2>
+      <h1 class="uk-text-bold uk-margin-remove-top ">{{ $t("section.work_with_us.title") }}</h1>
       <p class="uk-margin-large-bottom">{{ $t("section.work_with_us.text", { num: jobs.length }) }}</p>
       <div class="uk-child-width-1-3@m uk-grid uk-grid-small uk-flex-center"
         data-uk-scrollspy="cls: uk-animation-scale-down; target: > div; delay: 100" uk-grid>

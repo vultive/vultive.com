@@ -62,7 +62,7 @@
         class="uk-grid uk-child-width-1-3@m uk-child-width-1-2@s uk-flex-row-reverse uk-grid-row-medium uk-margin-large-bottom"
         uk-grid>
         <div>
-          <h2 class="v-footer__title">{{ $t("footer.socials.title") }}</h2>
+          <h3 class="v-footer__title">{{ $t("footer.socials.title") }}</h3>
           <div>
             <a href="https://twitter.com/vultivecom" class="uk-icon-button uk-margin-small-right" data-uk-icon="twitter"
               aria-label="Twitter"></a>
@@ -71,7 +71,7 @@
           </div>
         </div>
         <div>
-          <h2 class="v-footer__title" id="contact">{{ $t("footer.contact.title") }}</h2>
+          <h3 class="v-footer__title" id="contact">{{ $t("footer.contact.title") }}</h3>
           <ul class="uk-list">
             <li>
               <a class="uk-link-muted" href="https://vultive.freshdesk.com">{{ $t("footer.contact.nav.helpdesk") }}</a>
@@ -84,7 +84,7 @@
           </ul>
         </div>
         <div>
-          <h2 class="v-footer__title" id="company">{{ $t("footer.about_us.title") }}</h2>
+          <h3 class="v-footer__title" id="company">{{ $t("footer.about_us.title") }}</h3>
           <ul class="uk-list">
             <li>
               <a class="uk-link-muted" href="https://blog.vultive.com">{{ $t("footer.about_us.nav.blog") }}</a>
@@ -104,7 +104,7 @@
           </ul>
         </div>
         <div>
-          <h2 class="v-footer__title">{{ $t("footer.display_language.title") }}</h2>
+          <h3 class="v-footer__title">{{ $t("footer.display_language.title") }}</h3>
           <AppSelectLanguage />
         </div>
       </div>
