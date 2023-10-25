@@ -35,6 +35,10 @@
     }
   },
   "section": {
+    "products": {
+      "title": "Make life more efficient",
+      "text": "Our Products"
+    },
     "news": {
       "title": "Latest News",
       "text": "From our blog"

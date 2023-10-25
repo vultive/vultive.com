@@ -51,7 +51,16 @@
     </div>
   </section>
 
-  <section class="uk-section uk-section-default" id="products">
+  <section class="uk-section uk-section-default uk-section-small" id="products">
+    <div class="uk-container uk-text-center">
+      <span class="uk-text-danger uk-text-bold uk-text-capitalize">{{ $t("section.products.title") }}</span>
+      <h1 class="uk-text-bold uk-margin-remove">
+        {{ $t("section.products.text") }}
+      </h1>
+    </div>
+  </section>
+
+  <section class="uk-section uk-section-default">
     <AppHero image="/images/illustrations/video.svg" label="Licast" :title="$t('service.licast.title')"
       contentClass="uk-flex-last@m" buttonUrl="https://licast.space" :buttonText="$t('service.licast.button')">
       <template v-slot:text>
