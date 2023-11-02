@@ -24,7 +24,7 @@ export default defineNuxtConfig({
   //   },
   // },
   googleAdsense: {
-    id: "ca-pub-8536011049781887"
+    id: "ca-pub-9664338172707251"
   },
   vite: {
     css: {
@@ -95,7 +95,7 @@ export default defineNuxtConfig({
         },
         {
           name: "google-adsense-account",
-          content: "ca-pub-8536011049781887"
+          content: "ca-pub-9664338172707251"
         }
       ],
       link: [

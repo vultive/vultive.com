@@ -27,7 +27,8 @@
 
   <section class="uk-section uk-section-default uk-section-small">
     <div class="uk-container uk-container-small">
-      <div class="uk-position-relative uk-visible-toggle uk-margin-remove" tabindex="-1" uk-slider="sets: true; autoplay: true">
+      <div class="uk-position-relative uk-visible-toggle uk-margin-remove" tabindex="-1"
+        uk-slider="sets: true; autoplay: true">
         <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@m uk-flex-middle uk-grid v-logos-grid">
           <li>
             <a href="https://my.limitlesshost.net/order/forms/a/NDMyNA==">
@@ -95,17 +96,29 @@
               </NuxtLink>
             </li>
             <li>
-              <a class="uk-link-muted" href="/pdfs/privacy-policy.pdf">{{ $t("footer.about_us.nav.privacy_policy") }}</a>
+              <NuxtLink to="/privacy-policy" class="uk-link-muted">
+                {{ $t("footer.about_us.nav.privacy_policy") }}
+              </NuxtLink>
             </li>
             <li>
-              <a class="uk-link-muted" href="/pdfs/terms-and-conditions.pdf">{{
-                $t("footer.about_us.nav.terms_and_conditions") }}</a>
+              <NuxtLink to="/terms-and-conditions" class="uk-link-muted">
+                {{
+                  $t("footer.about_us.nav.terms_and_conditions") }}
+              </NuxtLink>
             </li>
           </ul>
         </div>
         <div>
           <h3 class="v-footer__title">{{ $t("footer.display_language.title") }}</h3>
           <AppSelectLanguage />
+        </div>
+        <div>
+          <h3 class="v-footer__title">{{ $t("footer.explore.title") }}</h3>
+          <ul class="uk-list">
+            <li>
+              <a class="uk-link-muted" href="https://vultive.asia">Vultive Asia</a>
+            </li>
+          </ul>
         </div>
       </div>
       <hr class="uk-margin-medium-bottom" />
@@ -116,3 +129,4 @@
     </div>
   </footer>
 </template>
+ 

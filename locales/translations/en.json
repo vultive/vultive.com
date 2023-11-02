@@ -12,6 +12,9 @@
     }
   },
   "footer": {
+    "explore": {
+      "title": "Explore"
+    },
     "socials": {
       "title": "Socials"
     },
@@ -35,6 +38,14 @@
     }
   },
   "section": {
+    "privacy_policy": {
+      "title": "Privacy Policy",
+      "text": "Last updated {date}"
+    },
+    "terms_and_conditions": {
+      "title": "Terms and Conditions",
+      "text": "Last updated {date}"
+    },
     "products": {
       "title": "Make life more efficient",
       "text": "Our Products"
