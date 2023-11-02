@@ -12,6 +12,9 @@
     }
   },
   "footer": {
+    "explore": {
+      "title": "Explore"
+    },
     "socials": {
       "title": "Socials"
     },
