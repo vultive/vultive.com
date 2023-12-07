@@ -88,9 +88,6 @@
           <h3 class="v-footer__title" id="company">{{ $t("footer.about_us.title") }}</h3>
           <ul class="uk-list">
             <li>
-              <a class="uk-link-muted" href="https://blog.vultive.com">{{ $t("footer.about_us.nav.blog") }}</a>
-            </li>
-            <li>
               <NuxtLink to="/work-with-us" class="uk-link-muted">
                 {{ $t("footer.about_us.nav.careers") }}
               </NuxtLink>
