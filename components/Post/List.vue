@@ -36,7 +36,7 @@ onMounted(() => {
             <ul class="uk-slider-items uk-grid">
                 <template v-for="post in postsDetails" v-bind:key="post.id">
                     <li class="uk-width-3-4">
-                        <NuxtLink :to="'/post/' + post.id" class="uk-text-decoration-none">
+                        <NuxtLink :to="'/post/' + post.slug" class="uk-text-decoration-none">
                             <PostItem :post="post" />
                         </NuxtLink>
                     </li>

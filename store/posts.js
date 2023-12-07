@@ -16,16 +16,20 @@ export const usePostsStore = defineStore("postsStore", {
       await repositories.blog.posts(
         {
           per_page: limit,
-          _embed: 'wp:featuredmedia'
+          _embed: "wp:featuredmedia",
         },
         (body) => (this.posts = body._data)
       );
     },
     async fetchPostById(id) {
       this.post = null;
-      await repositories.blog.postById(
-        id,
-        (body) => (this.post = body._data)
+      await repositories.blog.postById(id, (body) => (this.post = body._data));
+    },
+    async fetchPostBySlug(slug) {
+      this.post = null;
+      await repositories.blog.postBySlug(
+        slug,
+        (body) => (this.post = body._data[0])
       );
     },
   },
