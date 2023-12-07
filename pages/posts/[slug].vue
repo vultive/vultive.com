@@ -12,7 +12,7 @@ async function getPostDetails() {
     isLoading.value = true;
     try {
         error.value = null;
-        await usePostsStore().fetchPostBySlug(route.params.id);
+        await usePostsStore().fetchPostBySlug(route.params.slug);
     } catch (exc) {
         error.value = exc;
     }
