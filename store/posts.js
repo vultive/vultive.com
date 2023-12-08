@@ -27,8 +27,11 @@ export const usePostsStore = defineStore("postsStore", {
     },
     async fetchPostBySlug(slug) {
       this.post = null;
-      await repositories.blog.postBySlug(
-        slug,
+      await repositories.blog.posts(
+        {
+          slug: slug,
+          _embed: "author",
+        },
         (body) => (this.post = body._data[0])
       );
     },

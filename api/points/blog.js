@@ -9,7 +9,4 @@ export default {
   async postById(id, success) {
     await Client.get(prefix + id, {}, success);
   },
-  async postBySlug(slug, success) {
-    await Client.get(prefix + "?slug=" + slug, {}, success);
-  },
 };
