@@ -49,7 +49,7 @@ onMounted(() => {
                             <div class="uk-card uk-card-default uk-card-body uk-transition-scale-up uk-transition-opaque"
                                 uk-sticky="end: #sidebar; offset: 75">
                                 <img :src="author?.avatar_urls?.['128']"
-                                    class="uk-border-circle uk-object-cover uk-width-small v-news-card__avatar" />
+                                    class="uk-border-circle uk-object-cover v-news-card__avatar" />
                                 <h3 class="uk-card-title">{{ author?.name }}</h3>
                                 <p>{{ author?.description }}</p>
                             </div>
