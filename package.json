@@ -12,7 +12,7 @@
     "@intlify/unplugin-vue-i18n": "^2.0.0",
     "@types/node": "^20",
     "@unhead/schema-org": "^1.8.10",
-    "nuxt": "^3.10.0",
+    "nuxt": "^3.11.1",
     "nuxt-schema-org": "^3.3.3",
     "nuxt-simple-sitemap": "^4.1.10",
     "sass": "^1.70.0",
