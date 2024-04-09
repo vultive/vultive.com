@@ -113,7 +113,7 @@
       <hr class="uk-margin-medium-bottom" />
       <p class="uk-text-meta">
         © 2022-{{ new Date().getFullYear() }}
-        <a class="uk-text-bold uk-link-muted" href="https://vultive.com">Vultive Team</a>. All Rights Reserved.
+        <a class="uk-text-bold uk-link-muted" href="https://vultive.com">Vultive.com</a>, or its affiliates. All Rights Reserved.
       </p>
     </div>
   </footer>
