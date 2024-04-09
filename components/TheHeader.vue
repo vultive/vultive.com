@@ -12,7 +12,7 @@
             <div class="uk-navbar-item">
               <a class="uk-button uk-text-italic uk-button-danger uk-button-small uk-border-rounded uk-text-bold"
                 uk-scrollspy="cls: uk-animation-slide-right-small" href="https://vultive.statuspage.io">
-                {{ $t("header.nav.status") }}
+                {{ $t('header.nav.status') }}
               </a>
             </div>
           </div>
