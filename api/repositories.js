@@ -1,5 +1,5 @@
-import blog from "./points/blog";
+import directus from "./points/directus";
 
-const repositories = { blog };
+const repositories = { directus };
 
 export default repositories;

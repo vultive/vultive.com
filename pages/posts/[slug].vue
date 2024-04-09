@@ -3,6 +3,7 @@ import { storeToRefs } from "pinia";
 import { usePostsStore } from "@/store/posts";
 
 const route = useRoute();
+const config = useRuntimeConfig();
 
 let error = ref(null);
 let isLoading = ref(false);
@@ -19,9 +20,9 @@ async function getPostDetails() {
     isLoading.value = false;
 }
 
-const author = computed(() => {
-    return postDetails.value._embedded?.author[0];
-});
+const author = ref(computed(() => {
+    return postDetails.value?.user_created;
+}));
 
 onMounted(() => {
     getPostDetails();
@@ -38,19 +39,20 @@ onMounted(() => {
                 <AppLoader />
             </template>
             <template v-else-if="postDetails">
-                <h1 class="uk-text-bold uk-margin-remove-top">{{ postDetails.title?.rendered }}</h1>
+                <h1 class="uk-text-bold uk-margin-remove-top">{{ postDetails?.title }}</h1>
                 <p class="uk-margin-large-bottom"><span uk-icon="icon: calendar; ratio: 1.25"
                         class="uk-margin-small-right uk-icon"></span> {{ new
-                            Date(postDetails.date).toLocaleString() }}</p>
+                Date(postDetails?.date_created).toLocaleString() }}</p>
                 <div uk-grid>
-                    <div v-html="postDetails.content?.rendered" class="uk-width-3-4@m v-text--muted uk-text-left"></div>
+                    <div v-html="postDetails?.content" class="uk-width-3-4@m v-text--muted uk-text-left"></div>
                     <div class="uk-width-1-4@m uk-flex-first uk-flex-last@m" id="sidebar">
-                        <div class="uk-transition-toggle uk-margin-top">
+                        <div class="uk-transition-toggle uk-margin-top" v-if="author">
                             <div class="uk-card uk-card-default uk-card-body uk-transition-scale-up uk-transition-opaque"
                                 uk-sticky="end: #sidebar; offset: 75">
-                                <img :src="author?.avatar_urls?.['128']"
-                                    class="uk-border-circle uk-object-cover v-news-card__avatar" />
-                                <h3 class="uk-card-title">{{ author?.name }}</h3>
+                                <img :src="config.public.directusApiBaseUrl + '/assets/' + author?.avatar"
+                                    class="uk-border-circle uk-object-cover v-post__avatar"
+                                    v-if="author?.avatar" />
+                                <h3 class="uk-card-title">{{ author?.first_name }} {{ author?.last_name }}</h3>
                                 <p>{{ author?.description }}</p>
                             </div>
                         </div>

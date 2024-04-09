@@ -1,5 +1,5 @@
 export default defineAppConfig({
-  language: {
-    key: "language",
-  },
-});
+    language: {
+      key: "language",
+    },
+  });

@@ -5,7 +5,7 @@ import VueI18nVitePlugin from "@intlify/unplugin-vue-i18n/vite";
 export default defineNuxtConfig({
   runtimeConfig: {
     public: {
-      blogApiBaseUrl: process.env.BLOG_API_BASE_URL,
+      directusApiBaseUrl: process.env.DIRECTUS_API_BASE_URL,
     },
   },
   css: ["~/node_modules/uikit/dist/css/uikit.min.css", "~/assets/main.scss"],
@@ -16,13 +16,6 @@ export default defineNuxtConfig({
     "nuxt-schema-org",
     "@nuxtjs/google-adsense",
   ],
-  // robots: {
-  //   rules: {
-  //     UserAgent: "ia_archiver",
-  //     Disallow: "*",
-  //      Sitemap:  `https://${req.headers.host}/sitemap.xml` 
-  //   },
-  // },
   googleAdsense: {
     id: "ca-pub-9664338172707251"
   },

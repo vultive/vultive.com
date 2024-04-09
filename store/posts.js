@@ -13,27 +13,13 @@ export const usePostsStore = defineStore("postsStore", {
   actions: {
     async fetchPosts(limit = 4) {
       this.posts = null;
-      await repositories.blog.posts(
-        {
-          per_page: limit,
-          _embed: "wp:featuredmedia",
-        },
-        (body) => (this.posts = body._data)
-      );
-    },
-    async fetchPostById(id) {
-      this.post = null;
-      await repositories.blog.postById(id, (body) => (this.post = body._data));
+      await repositories.directus.posts(limit).then((res) => (this.posts = res));
     },
     async fetchPostBySlug(slug) {
       this.post = null;
-      await repositories.blog.posts(
-        {
-          slug: slug,
-          _embed: "author",
-        },
-        (body) => (this.post = body._data[0])
-      );
+      await repositories.directus
+        .postBySlug(slug)
+        .then((res) => (this.post = res[0]));
     },
   },
 });
