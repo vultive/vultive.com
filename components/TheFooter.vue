@@ -109,14 +109,6 @@
           <h3 class="v-footer__title">{{ $t("footer.display_language.title") }}</h3>
           <AppSelectLanguage />
         </div>
-        <div>
-          <h3 class="v-footer__title">{{ $t("footer.explore.title") }}</h3>
-          <ul class="uk-list">
-            <li>
-              <a class="uk-link-muted" href="https://vultive.asia">Vultive Asia</a>
-            </li>
-          </ul>
-        </div>
       </div>
       <hr class="uk-margin-medium-bottom" />
       <p class="uk-text-meta">
@@ -126,4 +118,3 @@
     </div>
   </footer>
 </template>
- 
