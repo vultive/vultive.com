@@ -14,11 +14,7 @@ export default defineNuxtConfig({
     "@nuxtjs/robots",
     "nuxt-simple-sitemap",
     "nuxt-schema-org",
-    "@nuxtjs/google-adsense",
   ],
-  googleAdsense: {
-    id: "ca-pub-9664338172707251"
-  },
   vite: {
     css: {
       preprocessorOptions: {
@@ -85,10 +81,6 @@ export default defineNuxtConfig({
           hid: "og:image",
           name: "og:image",
           content: "https://vultive.com/images/preview.webp",
-        },
-        {
-          name: "google-adsense-account",
-          content: "ca-pub-9664338172707251"
         }
       ],
       link: [

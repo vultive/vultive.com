@@ -21,7 +21,6 @@
   },
   "dependencies": {
     "@directus/sdk": "^15.1.0",
-    "@nuxtjs/google-adsense": "^3.0.0",
     "@nuxtjs/robots": "^3.0.0",
     "@pinia/nuxt": "^0.5.1",
     "nuxt-storage": "^1.2.2",
