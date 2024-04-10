@@ -3,11 +3,14 @@
     "name": "Polski",
     "header": {
       "nav": {
-        "status": "Stan usług"
+        "home": "Strona główna",
+        "links": "Linki",
+        "status": "Stan usług",
+        "careers": "Kariera"
       },
       "about": {
         "title": "Niezachwiana pasja",
-        "text": "Nasza podróż zaczyna się od głęboko zakorzenionej wiary w moc technologii, która upraszcza i wzmacnia codzienne doświadczenia. Z każdą linijką kodu, którą piszemy i każdą funkcją, którą projektujemy, naszym wspólnym celem jest uczynienie życia płynniejszym, wydajniejszym i przyjemniejszym dla wszystkich.",
+        "text": "Nasza podróż rozpoczyna się od głęboko zakorzenionego przekonania w moc technologii, aby upraszczać i wzmacniać codzienne doświadczenia. Za każdą linijką kodu, którą piszemy, i za każdą funkcją, którą projektujemy, naszym wspólnym celem jest uczynienie życia łatwiejszym, bardziej efektywnym i przyjemniejszym dla wszystkich.",
         "button": "Nasze Produkty"
       }
     },
@@ -24,13 +27,12 @@
       "about_us": {
         "title": "O Nas",
         "nav": {
-          "careers": "Kariera",
           "privacy_policy": "Polityka Prywatności",
           "terms_and_conditions": "Warunki i Postanowienia"
         }
       },
       "display_language": {
-        "title": "Język Wyświetlania"
+        "title": "Język"
       }
     },
     "section": {
@@ -62,18 +64,18 @@
       "join": {
         "label": "Dołącz do Naszego Zespołu",
         "title": "Wspólnie Kształtujmy Przyszłość",
-        "text": "Gotowy, aby wywrzeć znaczący wpływ? Poszukujemy utalentowanych osób, które dołączą do naszego zespołu i staną się częścią czegoś przełomowego. Jeśli jesteś pasjonatem innowacji i tworzenia rozwiązań, które mają znaczenie, chcielibyśmy mieć Cię na pokładzie. Razem kształtujmy przyszłość!"
+        "text": "Poszukujemy utalentowanych osób, które dołączą do naszego zespołu i będą częścią czegoś przełomowego. Jeśli pasjonuje Cię innowacja i tworzenie rozwiązań, które mają znaczenie, chcielibyśmy Cię mieć w zespole. Razem kształtujmy przyszłość!"
       }
     },
     "service": {
       "licast": {
         "title": "Usługa Transmisji na Żywo",
-        "text": "Nasza usługa transmisji na żywo to szybki sposób na podzielenie się swoją pasją z całym światem! Niezależnie od tego, czy jesteś nowym streamerem, czy doświadczonym graczem, możemy pomóc Ci transmitować rozgrywkę w wysokiej jakości za darmo.",
+        "text": "Nasza usługa transmisji na żywo to szybki sposób na podzielenie się swoją pasją ze światem! Bez względu na to, czy jesteś nowym streamerem czy doświadczonym twórcą, możemy pomóc Ci transmitować swoje treści w wysokiej jakości za darmo.",
         "button": "Dołącz teraz!"
       },
       "learn": {
         "title": "Platforma do Nauki Języków",
-        "text": "Nasza platforma do nauki języków jest idealnym narzędziem dla studentów, nauczycieli i entuzjastów języków. Dzięki obszernej zawartości edukacyjnej z interaktywnymi ćwiczeniami, pomagamy uczyć się języków szybciej i bardziej efektywnie. Cała nasza zawartość edukacyjna jest bezpłatna.",
+        "text": "Nasza platforma do nauki języków jest idealnym narzędziem dla studentów, nauczycieli i entuzjastów języków. Dzięki obszernej zawartości edukacyjnej z interaktywnymi ćwiczeniami, pomagamy uczyć się języków szybciej i bardziej efektywnie. Korzystanie z platformy jest bezpłatne.",
         "button": "Ucz się ZA DARMO!"
       }
     }

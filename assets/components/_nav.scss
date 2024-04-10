@@ -1,0 +1,18 @@
+.v-nav {
+  &__item {
+    .router-link-active {
+      font-weight: 600;
+      color: $v-highlight-primary;
+    }
+  }
+  li>a {
+    min-height: 40px;
+    font-size: 0.9375rem;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    transition: color 0.2s ease-in-out, opacity 0.3s ease;
+  }
+  &__icon {
+    margin-right: 4px;
+  }
+}

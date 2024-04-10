@@ -3,7 +3,10 @@
   "name": "English",
   "header": {
     "nav": {
-      "status": "status"
+      "home": "Home",
+      "links": "Links",
+      "status": "Status",
+      "careers": "Careers"
     },
     "about": {
       "title": "Unwavering passion",
@@ -24,7 +27,6 @@
     "about_us": {
       "title": "About Us",
       "nav": {
-        "careers": "Careers",
         "privacy_policy": "Privacy Policy",
         "terms_and_conditions": "Terms and Conditions"
       }
@@ -80,7 +82,7 @@
   "service": {
     "licast": {
       "title": "Live Streaming Service",
-      "text": "our Live Streaming Service is a quick way to share your passion with the world! Whether you're a new streamer or an experienced gamer, we can help you broadcast your gameplay in high quality for free.",
+      "text": "our Live Streaming Service is a quick way to share your passion with the world! Whether you're a novice broadcaster or an experienced content creator, we can help you stream your content in high quality for free.",
       "button": "Join Now!"
     },
     "learn": {

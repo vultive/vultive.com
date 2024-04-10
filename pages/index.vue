@@ -61,26 +61,26 @@
   </section>
 
   <section class="uk-section uk-section-default">
-    <AppHero image="/images/illustrations/video.svg" label="Licast" :title="$t('service.licast.title')"
-      contentClass="uk-flex-last@m" buttonUrl="https://licast.space" :buttonText="$t('service.licast.button')">
-      <template v-slot:text>
-        {{ $t("service.licast.text") }}
-      </template>
-    </AppHero>
-  </section>
-
-  <section class="uk-section uk-section-default">
-    <AppHero image="/images/illustrations/explore.svg" label="Learn" :title="$t('service.learn.title')"
-      buttonUrl="https://learn.vultive.com" :buttonText="$t('service.learn.button')">
+    <AppHero image="/images/illustrations/explore.svg" label="Vultive Learn" :title="$t('service.learn.title')"
+      contentClass="uk-flex-last@m" buttonUrl="https://learn.vultive.com" :buttonText="$t('service.learn.button')">
       <template v-slot:text>
         {{ $t("service.learn.text") }}
       </template>
     </AppHero>
   </section>
 
+  <section class="uk-section uk-section-default">
+    <AppHero image="/images/illustrations/making-art.svg" label="Vultive Live" :title="$t('service.licast.title')"
+      buttonUrl="https://live.vultive.com" :buttonText="$t('service.licast.button')">
+      <template v-slot:text>
+        {{ $t("service.licast.text") }}
+      </template>
+    </AppHero>
+  </section>
+
   <section class="uk-section uk-section-muted uk-section-small" id="news">
     <div class="uk-container uk-container-xsmall uk-text-center"> <span class="uk-text-danger uk-text-bold">{{
-      $t("section.news.title") }}</span>
+        $t("section.news.title") }}</span>
       <h2 class="uk-text-bold uk-margin-large-bottom uk-margin-remove-top">
         {{ $t("section.news.text") }}
       </h2>
