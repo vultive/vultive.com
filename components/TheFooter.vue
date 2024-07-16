@@ -79,8 +79,8 @@
             </li>
             <li>
               Email:
-              <a href="mailto: support@vultive.com"
-                class="uk-button uk-button-link uk-text-lowercase uk-text-bold">support@vultive.com</a>
+              <a href="mailto: admin@vultive.com"
+                class="uk-button uk-button-link uk-text-lowercase uk-text-bold">admin@vultive.com</a>
             </li>
           </ul>
         </div>
